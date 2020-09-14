@@ -2,7 +2,7 @@
 define('ROOT',__DIR__);
 require 'functions.php';
 $domain =$_COOKIE['91url'];
-$md5='file.php?url='.$aes->encrypt($domain.'/js/md5.js');
+$md5='file.php?url='.$aes->encrypt($domain.'/js/m.js');
 #获取URL
 $url=$_REQUEST['url'];
 //$url="encyT0d0Zm5OcnRqNEE5ZnNTM0NUMTJHdktXRXliWTBDbTNQU25ycVl3TE9HdEtEOjqkJq2sY6f0XavEaEhh07Ym";
